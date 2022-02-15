@@ -10,17 +10,162 @@
     max-width: 100%;   
  }
  .fondoAzul{
-    width:500px;
-    height:350px;
+  width: 350px;
+  height: 210px;  
+  border-bottom-left-radius: 150px;
+  margin-top: 50px;
+  left: 120px;  
+  z-index: -1;
+  position:absolute;
+  background-color:$azulBoton;
+} 
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {  
+  .fondoAzul{
+    width: 500px;
+    height: 300px;
     border-bottom-left-radius: 150px;
-    margin-top: 90px;
-    margin-left: 170px;  
+    margin-top: 50px;
+    left: 120px;  
     top:50px;
     z-index: -1;
     position:absolute;
     background-color:$azulBoton;
- }
+  } 
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  
+  .fondoAzul{
+    width: 300px;
+    height: 200px;
+    border-bottom-left-radius: 150px;
+    margin-top: 30px;
+    left: 100px;  
+    top:50px;
+    z-index: -1;
+    position:absolute;
+    background-color:$azulBoton;
+  } 
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  
+  .fondoAzul {
+    width:355px;
+    height:285px;
+    border-bottom-left-radius: 150px;
+    margin-top: 60px;
+    left: 170px;  
+    top:50px;
+    z-index: -1;
+    position:absolute;
+    background-color:$azulBoton; 
+  }  
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  
+  .fondoAzul {
+    width:480px;
+    height:320px;
+    border-bottom-left-radius: 150px;
+    margin-top: 90px;
+    left: 170px;  
+    top:50px;
+    z-index: -1;
+    position:absolute;
+    background-color:$azulBoton; 
+  } 
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {  
+  .fondoAzul {
+    width:500px;
+    height:350px;
+    border-bottom-left-radius: 150px;
+    margin-top: 90px;
+    left: 170px;  
+    top:50px;
+    z-index: -1;
+    position:absolute;
+    background-color:$azulBoton; 
+  }
+}
  .fondoAzul2{
+    width:200px;
+    height:250px;
+    border-bottom-right-radius: 150px;
+    top:50px;
+    z-index: -1;
+    position:absolute;
+    background-color:$azulBoton;
+    right: 170px;
+ }
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+  .fondoAzul2{
+    width: 500px;
+    height: 300px;
+    border-bottom-right-radius: 150px;
+    margin-top: 60px; 
+    top:50px;
+    z-index: -1;
+    position:absolute;
+    background-color:$azulBoton;
+    right: 200px;
+  }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+  .fondoAzul2{
+    width: 300px;
+    height: 220px;
+    border-bottom-right-radius: 150px;
+    margin-top: 0px; 
+    top:50px;
+    z-index: -1;
+    position:absolute;
+    background-color:$azulBoton;
+    right: 200px;
+  }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+  .fondoAzul2{
+    width:355px;
+    height:285px;
+    border-bottom-right-radius: 150px;
+    margin-top: 60px; 
+    top:50px;
+    z-index: -1;
+    position:absolute;
+    background-color:$azulBoton;
+    right: 200px;
+  }
+ }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+  .fondoAzul2{
+    width:480px;
+    height:320px;
+    border-bottom-right-radius: 150px;
+    margin-top: 60px; 
+    top:50px;
+    z-index: -1;
+    position:absolute;
+    background-color:$azulBoton;
+    right: 200px;
+  }
+ }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { 
+  .fondoAzul2{
     width:500px;
     height:350px;
     border-bottom-right-radius: 150px;
@@ -30,9 +175,11 @@
     position:absolute;
     background-color:$azulBoton;
     right: 200px;
+  }
  }
+
  .img2{
-   //  padding-left: 8%;
+
     position: relative; 
     max-width: 100%;
  }
@@ -41,3 +188,4 @@
     position: relative; 
     max-width: 100%;
  }
+

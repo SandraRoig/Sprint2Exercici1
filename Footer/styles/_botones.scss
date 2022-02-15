@@ -37,8 +37,12 @@
 }
 footer {
     .nav-link{
-color: white !important;
+        color: white !important;
     }
+    .nav-link:hover{
+        color: $rojoBoton !important;
+    }
+
 }
 .container1{
     color: white !important;

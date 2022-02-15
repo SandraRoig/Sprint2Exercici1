@@ -2,12 +2,23 @@
         background: $azulBoton;
     
 }
-
 .footer2 {
     background: $footer2;
     .nav-link{
         color: white !important;
     }
 }
+.form-control{
+    display: inline list-item !important;
+    width: auto !important;
+    border-color: grey !important;
+}
 
+.iconos {
+    justify-content: center;
+    display: inline-flex;       
+}
+.iconos:hover{
+    color: $rojoBoton !important;
+}
 
