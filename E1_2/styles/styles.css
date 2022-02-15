@@ -3,17 +3,21 @@
   font-size: small !important;
   padding-left: 0px !important;
 }
+
 .botones .btn-primary {
   font-size: small !important;
 }
+
 .botones .btn-light {
   font-size: small !important;
 }
+
 .botones .btn-primary:hover {
   background-color: white !important;
   border-color: blue !important;
   color: blue !important;
 }
+
 .botones .btn-light:hover {
   color: black !important;
   border-color: black !important;
@@ -103,9 +107,11 @@
   padding-left: 3%;
   font-size: small;
 }
+
 .navbar .nav-link {
   color: black !important;
 }
+
 .navbar .btn-danger {
   font-size: small;
 }
@@ -120,3 +126,4 @@
   border-color: #C93838 !important;
   color: #C93838 !important;
 }
+/*# sourceMappingURL=styles.css.map */

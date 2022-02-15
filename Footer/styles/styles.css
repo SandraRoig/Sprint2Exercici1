@@ -83,6 +83,7 @@ footer .nav-link {
 
 .img1 {
   position: relative;
+  max-width: 100%;
 }
 
 .fondoAzul {
@@ -111,11 +112,13 @@ footer .nav-link {
 
 .img2 {
   position: relative;
+  max-width: 100%;
 }
 
 .img3 {
   padding-left: 15%;
   position: relative;
+  max-width: 100%;
 }
 
 .navbar {

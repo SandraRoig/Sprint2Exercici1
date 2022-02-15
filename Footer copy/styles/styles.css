@@ -3,12 +3,15 @@
   font-size: small !important;
   padding-left: 0px !important;
 }
+
 .botones .btn-primary {
   font-size: small !important;
 }
+
 .botones .btn-light {
   font-size: small !important;
 }
+
 .botones .btn-light:hover {
   color: black !important;
   border-color: black !important;
@@ -122,9 +125,11 @@ footer .nav-link {
   padding-left: 3%;
   font-size: small;
 }
+
 .navbar .nav-link {
   color: black !important;
 }
+
 .navbar .btn-danger {
   font-size: small;
 }
@@ -178,6 +183,8 @@ footer .nav-link {
 .footer2 {
   background: #041562;
 }
+
 .footer2 .nav-link {
   color: white !important;
 }
+/*# sourceMappingURL=styles.css.map */
