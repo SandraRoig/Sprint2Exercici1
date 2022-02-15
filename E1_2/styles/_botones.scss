@@ -1,0 +1,37 @@
+
+.botones{
+    padding-top: 50px;
+    font-size: small !important;
+    padding-left: 0px !important;
+    .btn-primary{
+        font-size: small !important;
+    }
+    .btn-light{
+        font-size: small !important;
+    }
+    .btn-primary:hover{
+        background-color: white !important;
+        border-color: blue !important;
+        color: blue !important;    
+    }
+    .btn-light:hover {
+       color: black !important;
+       border-color: black !important;
+    }
+}
+.linksFeatures{  
+    display: grid;
+    justify-content: center;     
+}
+.nav-tabs .nav-link{
+    color: black;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+    border-color: white white $rojoBoton !important;
+    border-width: 4px;
+    font-size: 1rem !important;
+    color: black !important;      
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link:hover{
+    color: $rojoBoton;
+}

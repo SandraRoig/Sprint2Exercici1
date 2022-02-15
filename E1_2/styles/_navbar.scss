@@ -1,0 +1,20 @@
+
+.navbar{
+    padding-left: 3%;
+    font-size: small;
+    .nav-link{
+        color: black !important;
+    }
+    .btn-danger{
+        font-size: small;                
+    }
+}
+.nav-link:hover{
+    color: $rojoBoton !important;
+}
+.btn-danger:hover{
+    font-size: small;
+    background-color: white !important;
+    border-color: $rojoBoton !important;
+    color: $rojoBoton !important;
+ }

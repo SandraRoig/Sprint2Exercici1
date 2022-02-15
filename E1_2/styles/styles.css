@@ -1,0 +1,122 @@
+.botones {
+  padding-top: 50px;
+  font-size: small !important;
+  padding-left: 0px !important;
+}
+.botones .btn-primary {
+  font-size: small !important;
+}
+.botones .btn-light {
+  font-size: small !important;
+}
+.botones .btn-primary:hover {
+  background-color: white !important;
+  border-color: blue !important;
+  color: blue !important;
+}
+.botones .btn-light:hover {
+  color: black !important;
+  border-color: black !important;
+}
+
+.linksFeatures {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav-tabs .nav-link {
+  color: black;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  border-color: white white #C93838 !important;
+  border-width: 4px;
+  font-size: 1rem !important;
+  color: black !important;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link:hover {
+  color: #C93838;
+}
+
+.textoBookmark {
+  padding-left: 5% !important;
+}
+
+.fs-5 {
+  color: grey;
+}
+
+.textoLinks {
+  padding-left: 10% !important;
+  margin-top: 12%;
+}
+
+.img-move-wrapper {
+  position: relative;
+  overflow: hidden;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.img1 {
+  position: relative;
+}
+
+.fondoAzul {
+  width: 500px;
+  height: 350px;
+  border-bottom-left-radius: 150px;
+  margin-top: 90px;
+  margin-left: 170px;
+  top: 50px;
+  z-index: -1;
+  position: absolute;
+  background-color: #4582EC;
+}
+
+.fondoAzul2 {
+  width: 500px;
+  height: 350px;
+  border-bottom-right-radius: 150px;
+  margin-top: 60px;
+  top: 50px;
+  z-index: -1;
+  position: absolute;
+  background-color: #4582EC;
+  right: 200px;
+}
+
+.img2 {
+  position: relative;
+}
+
+.img3 {
+  padding-left: 15%;
+  position: relative;
+}
+
+.navbar {
+  padding-left: 3%;
+  font-size: small;
+}
+.navbar .nav-link {
+  color: black !important;
+}
+.navbar .btn-danger {
+  font-size: small;
+}
+
+.nav-link:hover {
+  color: #C93838 !important;
+}
+
+.btn-danger:hover {
+  font-size: small;
+  background-color: white !important;
+  border-color: #C93838 !important;
+  color: #C93838 !important;
+}

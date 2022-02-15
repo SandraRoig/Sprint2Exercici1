@@ -1,0 +1,20 @@
+.accordion{
+    display: flex;
+}
+.accordion-item {
+    border-right: none !important;
+    border-left: none !important;
+}
+.accordion-button::after{
+    background-image: url("../img/icon-arrow.svg") !important;
+}
+.accordion-button:hover{
+    color: $rojoBoton;
+}
+.accordion-button:not(.collapsed){
+    color: $titulos !important;
+}
+.accordion-button:not(.collapsed)::after{
+// le he puesto la crucecita pq no tengo la imagen en rojo
+    background-image: url("../img/icon-close.svg") !important;
+}
